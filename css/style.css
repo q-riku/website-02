@@ -1,0 +1,435 @@
+@charset "utf=8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+/*******************total******************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'M PLUS 1p', 'Times New Roman', Times, serif;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+/**************header*******************/
+header {
+	width: 960px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 45px;
+	text-align: center;
+}
+
+h1 img {
+	margin-bottom: 45px;
+}
+
+header ul {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header ul li {
+	font-size: 24px;
+	float: left;
+	display: block;
+	padding: 0 35px;
+	border-right: 2px solid #333333;
+}
+
+header ul li:last-child {
+	border-right: none;
+}
+
+header ul a:hover {
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+.mainvisual {
+	width: 100%;
+	background-color: #333333;
+}
+
+.mainvisual img {
+	height: 500px;
+	padding: 0 calc((100% - 1250px)/2);
+}
+
+/*******************main************************/
+main {
+	margin-right: 0;
+}
+
+section {
+	text-align: center;
+	position: relative;
+}
+
+section h2 {
+	font-size: 40px;
+	padding: 10px;
+	background-color: #ffe9ca;
+	color: #333333;
+}
+
+.title_right img {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.title_left img {
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/********************about us******************/
+.aboutUs {
+	margin-top: 50px;
+	color: white;
+	margin-bottom: 100px;
+	margin-right: 0;
+}
+
+/*1st*/
+#first {
+	height: 300px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#first p {
+	font-size: 25px;
+	width: 460px;
+	padding: 10px 0;
+	position: absolute;
+	left: 10px;
+	top: 100px;
+	background-color: #333333;
+	z-index: 1;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+}
+
+#first img {
+	position: absolute;
+	right: 10px;
+}
+
+/*2nd*/
+#second {
+	height: 450px;
+	position: relative;
+}
+
+#second p {
+	font-size: 25px;
+	width: 380px;
+	padding: 10px 0;
+	position: absolute;
+	right: 10px;
+	background-color: #333333;
+	z-index: 1;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+}
+
+#second #p1 {
+	width: 240px;
+	position: absolute;
+	top: 50px;
+	right: 150px;
+	z-index: 3;
+}
+
+#second #p2 {
+	position: absolute;
+	top: 150px;
+	z-index: 2;
+}
+
+#second #p3 {
+	position: absolute;
+	top: 250px;
+	z-index: 1;
+}
+
+#second img {
+	position: absolute;
+	left: 10px;
+	margin-right: 10px;
+}
+
+/*3rd*/
+#third {
+	height: 410px;
+	position: relative;
+}
+
+#third p {
+	font-size: 25px;
+	padding: 10px 0;
+	position: absolute;
+	left: 10px;
+	background-color: #333333;
+	z-index: 1;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+}
+
+#third #p4 {
+	width: 380px;
+	position: absolute;
+	top: 50px;
+	z-index: 2;
+}
+
+#third #p5 {
+	width: 540px;
+	position: absolute;
+	left: 90px;
+	bottom: 100px;
+	z-index: 1;
+}
+
+#third img {
+	position: absolute;
+	right: 10px;
+}
+
+/*4th*/
+#forth {
+	height: 360px;
+	position: relative;
+}
+
+#forth p {
+	font-size: 25px;
+	width: 540px;
+	padding: 10px 0;
+	position: absolute;
+	right: 10px;
+	bottom: 50px;
+	background-color: #333333;
+	z-index: 1;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+}
+
+#forth img {
+	position: absolute;
+	left: 10px;
+}
+
+/*******************news*********************/
+.news {
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.newsList {
+	margin-top: 30px;
+	height: 340px;
+}
+
+.newsList li {
+	float: left;
+	width: 300px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0 10px;
+	display: block;
+	transition: all 0.3s;
+}
+
+.newsList li:hover {
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+
+.newsList li a {
+	display: block;
+}
+
+.newsList p {
+	padding: 0 10px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.newsList .date {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.newsList .more {
+	text-align: right;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+/**********menu****************/
+.menu {
+	margin-bottom: 100px;
+}
+
+.subtitle {
+	clear: both;
+	border-bottom: 3px dashed #333333;
+	padding: 5px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.subtitle h3 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.dish ul {
+	height: 200px;
+	margin-top: 20px;
+}
+
+.subtitle .more {
+	float: right;
+	font-weight: bold;
+	position: absolute;
+	right: 5px;
+	bottom: 8px;
+	padding-right: 5px;
+}
+
+.subtitle a:hover {
+	color: #999999;
+}
+
+.dish ul li {
+	float: left;
+	margin: 0 10px;
+	display: block;
+}
+
+.dish li img {
+	border-radius: 5px;
+	transition: all 0.3s;
+}
+
+.dish li img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+}
+
+/*****************access*******************/
+.access {
+	height: 600px;
+}
+
+.map {
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.address {
+	float: right;
+	width: 300px;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 0 10px;
+	text-align: left
+}
+
+.address p {
+	padding: 100px 20px;
+	line-height: 1.2em;
+}
+
+b {
+	font-weight: bold;
+}
+
+/****************footer********************/
+footer {
+	margin-top: 100px;
+	clear: both;
+	text-align: center;
+	height: 150px;
+	color: white;
+	background-color: #333333;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #999999;
+}
+
+footer p {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+
+footer small {
+	font-size: 12px;
+}
+
+/*slideshow*/
+#slideshow {
+	position: relative;
+	height: 500px;
+}
+
+#slideshow img {
+	position: absolute;
+	z-index: 8;
+	opacity: 0.0;
+}
+
+#slideshow IMG.active {
+	z-index: 10;
+	opacity: 1.0;
+}
+
+#slideshow IMG.last-active {
+	z-index: 9;
+}
+
+/*to top*/
+.totop {
+	width: 80px;
+	height: 80px;
+	font-size: 50px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(51, 51, 51, 0.5);
+	transition: background-color 0.3s;
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	z-index: 9999;
+}
+
+.totop:hover {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.totop a {
+	color: white;
+	display: block;
+}
